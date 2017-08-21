@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Saira+Condensed');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-  
-
-
-
-
 /*************************/
 /********CSS RESET********/
 /********CSS RESET********/
@@ -12,12 +7,10 @@
 /********CSS RESET********/
 /********CSS RESET********/
 /*************************/
-
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -31,41 +24,36 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-  display: block;
+display: block;
 }
 body {
-  line-height: 1;
+line-height: 1;
 }
 ol, ul {
-  list-style: none;
+list-style: none;
 }
 blockquote, q {
-  quotes: none;
+quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
-  content: none;
+content: '';
+content: none;
 }
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+border-collapse: collapse;
+border-spacing: 0;
 }
-
-
-
-
-
 /**************************/
 /********ACTUAL CSS********/
 /********ACTUAL CSS********/
@@ -73,9 +61,6 @@ table {
 /********ACTUAL CSS********/
 /********ACTUAL CSS********/
 /**************************/
-
-
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -89,242 +74,117 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, section, summary,
 time, mark, audio, video {
-  font-family: 'Raleway', sans-serif;
+font-family: 'Raleway', sans-serif;
 }
-
-
 .headerX {
-  overflow: auto;
-  background: #40B2A9;
-  position: fixed;
-  width: 100%;
-  border-bottom: 3px solid grey;
-  z-index: 10;
-  overflow:auto;
+overflow: auto;
+background: #40B2A9;
+position: fixed;
+width: 100%;
+border-bottom: 3px solid grey;
+z-index: 10;
+overflow:auto;
 }
-
 .banner {
-  width: 50%;
-  float: left;
-  overflow:auto;
+width: 50%;
+float: left;
+overflow:auto;
 }
-
 .banner p {
-  line-height: 75px;
-  font-size: 22px;
-  padding-left: 2%;
-  
+line-height: 75px;
+font-size: 22px;
+padding-left: 2%;
 }
 .imagediv{
-  text-align: center;
-  width: 100%;
-  height:100%;
-  content: url("../img/R2H.jpg");
+text-align: center;
+width: 100%;
+height:100%;
+content: url("../img/R2H.jpg");
 }
-
 .contactYou{
-      padding-top: 100px;
-      text-align: left;
-      padding-left: 25%;
-      list-style-type: none;
-      font-family: 'Raleway', sans-serif;
-      font-size;
-      }
-
+padding-top: 100px;
+text-align: left;
+padding-left: 25%;
+list-style-type: none;
+font-family: 'Raleway', sans-serif;
+font-size;
+}
 .contactYou h2{
-      font-size: 1.5em;
-      padding-bottom: 20px;
-    }
-
+font-size: 1.5em;
+padding-bottom: 20px;
+}
 table, tr, th, td{
-  border: 1px solid black;
+border: 1px solid black;
 }
 table{
-  border: 3px solid black;
-
+border: 3px solid black;
 }
 .mytable{
-  padding-top: 100px;
-  padding-left: 20px;
-  padding-right: 20px;
+padding-top: 100px;
+padding-left: 20px;
+padding-right: 20px;
 }
-
 table tr, td, th{
-  text-align: left;
-  font-size: 1.35em;
-  padding: 5px;
-
-
+text-align: left;
+font-size: 1.35em;
+padding: 5px;
 }
 table th{
-  text-align: center;
-  font-size: 2em;
-
+text-align: center;
+font-size: 2em;
 }
-
 .codepen h1, h2 {
-  padding-top: 120px;
-  border-top:   px;
-  text-align:center;
-  font-size: 2em;
+padding-top: 120px;
+border-top:   px;
+text-align:center;
+font-size: 2em;
 }
-
 .navBarItems a:link, .codepen a:link{
-  color: #3332CC;
+color: #3332CC;
 }
-
 .navBarItems a:visited, .codepen a:visited{
-  color: #FD0000;
+color: #FD0000;
 }
-
 .navBarItems a:hover, .codepen a:hover{
-    color: hotpink;
+color: hotpink;
 }
-
 html{
-  background-color: #D7A361;
+background-color: #D7A361;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .navBarItems {
-    list-style-type: none;
-    text-decoration: none;
+list-style-type: none;
+text-decoration: none;
 }
-
-/*This should make the items float left so that they'll line up to make a horizontal list. I put padding just to make them look more presentable . because block items don't play well with others and added a nice background*/
-
 .navBarItems {
-    float: right;
-    margin: 5px 5px;
-    padding: 5px;
-    display: inline-block;
-    text-align: center;
-    color: black;
-    text-decoration: none;
+float: right;
+margin: 5px 5px;
+padding: 5px;
+display: inline-block;
+text-align: center;
+color: black;
+text-decoration: none;
 }
-
 .navBarItems li {
-  margin-top: 20px;
-  margin-right: 30px;
-  display: inline-block;
-  position: relative;
+margin-top: 20px;
+margin-right: 30px;
+display: inline-block;
+position: relative;
 }
-
-
-
 .subMenu  {
-  display: none;
-  padding: 0;
-
+display: none;
+padding: 0;
 }
-
 .navBarItems li:hover .subMenu{
-    display: inline;
-  
+display: inline;
 }
-
 .subMenu li {
-  display: block;
-  text-align: left;
-  font-size: .9em;
-  width: 100%;
-  
+display: block;
+text-align: left;
+font-size: .9em;
+width: 100%;
 }
-
 .subMenu {
-  position: absolute;
-  top: 100%;
-  left: 0;
+position: absolute;
+top: 100%;
+left: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

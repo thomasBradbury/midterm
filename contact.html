@@ -3,45 +3,42 @@
    <meta charset="utf-8">
    <link rel="stylesheet" type="text/css" href="./lib/css/stylesforwebpage.css">
    <header>
-
       <div class="headerX">
-      <div class="banner">
-         <p>2017 Road to Hire Midterm - Thomas Bradbury.</p>
+         <div class="banner">
+            <p>2017 Road to Hire Midterm - Thomas Bradbury.</p>
          </div>
          <ul class="navBarItems">
             <li><a href="./index.html">Home</a></li>
             <li><a href="./contact.html">Contact</a></li>
             <li><a href="./table.html">Table</a></li>
             <li><a href="./codepen.html">Code Pen</a></li>
-            <li><a href="#">Dropdown</a>
+            <li>
+               <a href="#">Dropdown</a>
                <ul class="subMenu">
                   <li><a href="#">This is</a></li>
                   <li><a href="#">my drop</a></li>
                   <li><a href="#">down menu.</a></li>
-         </ul>
-         </li>
+               </ul>
+            </li>
          </ul>
       </div>
-      </header>
-      <body>
-         
-         <div class="contactYou">
-      <h2>Please leave your contact information below.</h2>
-      <div class="guestInformation">
-      <form>
-         <ul>
-      <li>First Name: <input type="text" name="fname" placeholder="first name"></li>
-      <li>Last Name: <input type="text" name="lname" placeholder="last name"></li>
-      <li>Email: <input type="text" name="email" placeholder="myemailaddress@email.com"></li>
-      <li>Phone Number: <input type="text" name="phoneNumber" placeholder="xxx-xxx-xxxx"></li>
-      <li>Reason for contacting:
-         <textarea placeholder="reason for contacting..." cols="150" rows="10" name="reason" ></textarea>
-      </li>
-      </ul>
-      </div>
-      
-
-        What is your favorite Color?<br>
+   </header>
+   <body>
+      <div class="contactYou">
+         <h2>Please leave your contact information below.</h2>
+         <div class="guestInformation">
+            <form>
+            <ul>
+               <li>First Name: <input type="text" name="fname" placeholder="first name"></li>
+               <li>Last Name: <input type="text" name="lname" placeholder="last name"></li>
+               <li>Email: <input type="text" name="email" placeholder="myemailaddress@email.com"></li>
+               <li>Phone Number: <input type="text" name="phoneNumber" placeholder="xxx-xxx-xxxx"></li>
+               <li>Reason for contacting:
+                  <textarea placeholder="reason for contacting..." cols="150" rows="10" name="reason" ></textarea>
+               </li>
+            </ul>
+         </div>
+         What is your favorite Color?<br>
          <select>
             <option value="Red">Red</option>
             <option value="Orange">Orange</option>
@@ -50,15 +47,15 @@
             <option value="Blue">Blue</option>
             <option value="Indigo">Indigo</option>
             <option value="Violet">Violet</option>
-         </select><br><br>
+         </select>
+         <br><br>
          <input type="submit" name="submit" value="Submit" />
-         </div>
-      </body>
-
-      <script
-  src="https://code.jquery.com/jquery-3.2.1.js"
-  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-  crossorigin="anonymous"
-  src="lib/js/scripts/validation/jquery.validate.js">
-        $(".guestInformation").validate();
-      </script>
+      </div>
+   </body>
+   <script
+      src="https://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous"
+      src="lib/js/scripts/validation/jquery.validate.js">
+      $(".guestInformation").validate();
+   </script>
